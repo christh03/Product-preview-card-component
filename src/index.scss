@@ -9,8 +9,8 @@
   --white: hsl(0, 0%, 100%);
 
   /*Typography*/
-  --tipo-principal: "Montserrat", sans-serif;
-  --tipo-secundaria: "Fraunces", serif;
+  --tipo-principal: 'Montserrat', sans-serif;
+  --tipo-secundaria: 'Fraunces', serif;
 }
 
 *,
@@ -84,7 +84,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -126,9 +126,16 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--tipo-principal);
+  background-color: var(--cream);
   color: var(--black);
   hyphens: auto;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.Wrapper {
+  width: 94%;
+  max-width: 90rem;
+  margin: auto;
 }
