@@ -9,7 +9,7 @@ export const Button = () => {
       <button className="Card-btn">
         <img
           className="Card-svg"
-          src="/public/assets/images/card.svg"
+          src="/assets/images/card.svg"
           alt="Shopping card"
         />
         {text}
