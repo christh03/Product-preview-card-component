@@ -6,9 +6,9 @@ const data = {
     id: uuidv4(),
     title: 'PERFUME',
     brand: 'Gabrielle Essence Eau De Parfum',
-    text: 'A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.',
+    text: 'A floral, solar and voluptuous  interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.',
     currentPrice: '$149.99',
-    previousPrice: '$149.99',
+    previousPrice: '$169.99',
   },
 
   btn: {

@@ -1,0 +1,131 @@
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 1.75rem 1rem;
+
+  &-article {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10.5rem, 18.75rem));
+    grid-template-rows: 28.125rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+  }
+
+  &-figure {
+    grid-column: 1 / 2;
+    grid-row: 1 /1;
+  }
+
+  &-section {
+    grid-column: 2 / 3;
+    grid-row: 1/1;
+    padding: 2rem;
+    background-color: var(--white);
+  }
+  &-h1 {
+    margin-bottom: 1.25rem;
+    font-size: 0.75rem;
+    font-family: var(--tipo-principal);
+    font-weight: 500;
+    letter-spacing: 0.3125rem;
+    color: var(--dark-grayish-blue);
+  }
+  &-h2 {
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    font-family: var(--tipo-secundaria);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--very-dark-blue);
+  }
+  &-p {
+    width: 99%;
+    margin-bottom: 1.8125rem;
+    font-family: var(--tipo-principal);
+    font-weight: 500;
+    font-size: 0.875rem;
+    word-spacing: 0.1em;
+    line-height: 164%;
+    color: var(--dark-grayish-blue);
+  }
+  &-prices {
+    margin-bottom: 1.875rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1.1875rem;
+  }
+  &-currentPrice {
+    font-family: var(--tipo-secundaria);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: var(--dark-cyan);
+  }
+  &-previousPrice {
+    font-size: var(--tipo-principal);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    line-height: 1.4375rem;
+    color: var(--dark-grayish-blue);
+  }
+  &-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 14.75rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+
+    font-family: var(--tipo-principal);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.0669rem;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      transition: 0.3s ease;
+      background-color: #1a4032;
+    }
+  }
+
+  &-svg {
+    width: 0.8994rem;
+    height: 1rem;
+    margin-right: 0.7256rem;
+  }
+}
+
+@media screen and (max-width: 39.875rem) {
+  .Card-article {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .Card-section {
+    padding: 1.5rem;
+  }
+
+  .Card-figure {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .Card-section {
+    grid-column: 1/3;
+    grid-row: 2 /3;
+  }
+
+  .Card-btn {
+    width: 18.4375rem;
+    max-width: 18.4375rem;
+  }
+}
