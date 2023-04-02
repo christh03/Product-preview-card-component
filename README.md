@@ -32,6 +32,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Christh P](https://www.frontendmentor.io/profile/christh03)
+- Frontend Mentor - [Christh Peralta](https://www.frontendmentor.io/profile/christh03)
 
 
