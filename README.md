@@ -1,8 +1,37 @@
-# Product preview card component
+# Frontend Mentor - Product preview card component solution
 
-## React | Sass | Flexbox | Grid
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
-![](/public/design/desktop-desin.png)
-![](/public/design/mobile-design.jpg)
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
+
+### Screenshot
+
+![](./public/design/desktop-desin.png)
+
+
+
+### Links
+
+- Solution URL: [https://christhperalta.github.io/Product-preview-card-component/](https://christhperalta.github.io/Product-preview-card-component/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+
+
+## Author
+
+- Frontend Mentor - [Christh P](https://www.frontendmentor.io/profile/christh03)
+
+
